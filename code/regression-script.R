@@ -2,7 +2,7 @@
 Advertising <- read.csv("data/Advertising.csv", header = TRUE)
 
 
-lm_ad <- lm(Sales ~ TV, data = advertising)
+lm_ad <- lm(Sales ~ TV, data = Advertising
 save(lm_ad, file = "data/regression.RData")
 summary(lm_ad)
 
